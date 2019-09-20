@@ -1,0 +1,20 @@
+{
+  "name": "contact",
+  "version": "1.0.0",
+  "description": "A \"contact me\" webpage. Build with node-sass",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "keywords": [
+    "contact",
+    "responsive",
+    "webpage",
+    "node-sass"
+  ],
+  "author": "david damian",
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "^4.12.0"
+  }
+}
